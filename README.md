@@ -53,14 +53,14 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de resposta:
 
-        	{
-        		"httpVerb": "PATCH",
-        		"success": true,
-        		"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-        		"data": {
-        			"valor": "valor"
-        		}
-        	}
+        {
+          "httpVerb": "PATCH",
+          "success": true,
+          "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+          "data": {
+            "valor": "valor"
+          }
+        }
 
 <br>
 
@@ -76,14 +76,14 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de resposta:
 
-        	{
-        		"httpVerb": "PUT",
-        		"success": true,
-        		"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-        		"data": {
-        			"valor": "valor"
-        		}
-        	}
+        {
+          "httpVerb": "PUT",
+          "success": true,
+          "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+          "data": {
+            "valor": "valor"
+          }
+        }
 
 <br>
 

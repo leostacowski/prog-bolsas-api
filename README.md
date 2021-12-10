@@ -62,11 +62,11 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         		},
         	}
 
-    <br>
+<br>
 
-        PUT/
+    PUT /
 
-    > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
 -   Exemplo de payload:
 
@@ -85,11 +85,11 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         		},
         	}
 
-    <br>
+<br>
 
-        DELETE /
+    DELETE /
 
-    > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
 -   Exemplo de payload:
 

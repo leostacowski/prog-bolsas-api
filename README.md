@@ -24,20 +24,24 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
+        ```json
         {
-        	"valor": "valor",
+        	"valor": "valor"
         }
+        ```
 
 -   Exemplo de resposta:
 
+        ```json
         {
         	"httpVerb": "POST",
         	"success": true,
         	"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
         	"data": {
-        		"valor": "valor",
-        	},
+        		"valor": "valor"
+        	}
         }
+        ```
 
 <br>
 
@@ -47,20 +51,24 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
+        ```json
         {
-        	"valor": "valor",
+        	"valor": "valor"
         }
+        ```
 
 -   Exemplo de resposta:
 
+          ```json
         	{
         		"httpVerb": "PATCH",
         		"success": true,
         		"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
         		"data": {
-        			"valor": "valor",
-        		},
+        			"valor": "valor"
+        		}
         	}
+          ```
 
 <br>
 
@@ -70,20 +78,24 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
+        ```json
         {
-        	"valor": "valor",
+        	"valor": "valor"
         }
+        ```
 
 -   Exemplo de resposta:
 
+          ```json
         	{
         		"httpVerb": "PUT",
         		"success": true,
         		"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
         		"data": {
-        			"valor": "valor",
-        		},
+        			"valor": "valor"
+        		}
         	}
+          ```
 
 <br>
 
@@ -93,17 +105,21 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
+        ```json
         {
-        	"valor": "valor",
+        	"valor": "valor"
         }
+        ```
 
 -   Exemplo de resposta:
 
+        ```json
         {
         	"httpVerb": "DELETE",
         	"success": true,
         	"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
         	"data": {
-        		"valor": "valor",
-        	},
+        		"valor": "valor"
+        	}
         }
+        ```

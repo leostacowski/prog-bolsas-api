@@ -1,0 +1,23 @@
+{
+  "name": "prog-bolsas-api",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leostacowski/prog-bolsas-api.git",
+  "author": "Leonardo R <leonardo.stacowski@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "cls && nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

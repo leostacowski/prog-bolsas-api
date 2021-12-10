@@ -12,98 +12,98 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 ## Rotas:
 
-    GET /
+`GET /`
 
 > Retorna a documentação das rotas da prog-bolsas-api.
 
 <br>
 
-    POST /
+`POST /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
--   Exemplo de payload:
+Exemplo de payload:
 
-        {
-        	"valor": "valor"
-        }
+    {
+      "valor": "valor"
+    }
 
--   Exemplo de resposta:
+Exemplo de resposta:
 
-        {
-        	"httpVerb": "POST",
-        	"success": true,
-        	"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-        	"data": {
-        		"valor": "valor"
-        	}
-        }
+    {
+      "httpVerb": "POST",
+      "success": true,
+      "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+      "data": {
+        "valor": "valor"
+      }
+    }
 
 <br>
 
-    PATCH /
+`PATCH /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
--   Exemplo de payload:
+Exemplo de payload:
 
-        {
-        	"valor": "valor"
-        }
+    {
+      "valor": "valor"
+    }
 
--   Exemplo de resposta:
+Exemplo de resposta:
 
-        {
-          "httpVerb": "PATCH",
-          "success": true,
-          "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-          "data": {
-            "valor": "valor"
-          }
-        }
+    {
+      "httpVerb": "PATCH",
+      "success": true,
+      "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+      "data": {
+        "valor": "valor"
+      }
+    }
 
 <br>
 
-    PUT /
+`PUT /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
--   Exemplo de payload:
+Exemplo de payload:
 
-        {
-        	"valor": "valor"
-        }
+    {
+      "valor": "valor"
+    }
 
--   Exemplo de resposta:
+Exemplo de resposta:
 
-        {
-          "httpVerb": "PUT",
-          "success": true,
-          "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-          "data": {
-            "valor": "valor"
-          }
-        }
+    {
+      "httpVerb": "PUT",
+      "success": true,
+      "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+      "data": {
+        "valor": "valor"
+      }
+    }
 
 <br>
 
-    DELETE /
+`DELETE /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
--   Exemplo de payload:
+Exemplo de payload:
 
-        {
-        	"valor": "valor"
-        }
+    {
+      "valor": "valor"
+    }
 
--   Exemplo de resposta:
+Exemplo de resposta:
 
-        {
-        	"httpVerb": "DELETE",
-        	"success": true,
-        	"performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
-        	"data": {
-        		"valor": "valor"
-        	}
-        }
+    {
+      "httpVerb": "DELETE",
+      "success": true,
+      "performedAt": "Fri Dec 10 2021 19:27:10 GMT-0300 (GMT-03:00)",
+      "data": {
+        "valor": "valor"
+      }
+    }

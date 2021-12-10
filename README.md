@@ -24,15 +24,12 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
-        ```json
         {
         	"valor": "valor"
         }
-        ```
 
 -   Exemplo de resposta:
 
-        ```json
         {
         	"httpVerb": "POST",
         	"success": true,
@@ -41,7 +38,6 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         		"valor": "valor"
         	}
         }
-        ```
 
 <br>
 
@@ -51,15 +47,12 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
-        ```json
         {
         	"valor": "valor"
         }
-        ```
 
 -   Exemplo de resposta:
 
-          ```json
         	{
         		"httpVerb": "PATCH",
         		"success": true,
@@ -68,7 +61,6 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         			"valor": "valor"
         		}
         	}
-          ```
 
 <br>
 
@@ -78,15 +70,12 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
-        ```json
         {
         	"valor": "valor"
         }
-        ```
 
 -   Exemplo de resposta:
 
-          ```json
         	{
         		"httpVerb": "PUT",
         		"success": true,
@@ -95,7 +84,6 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         			"valor": "valor"
         		}
         	}
-          ```
 
 <br>
 
@@ -105,15 +93,12 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 -   Exemplo de payload:
 
-        ```json
         {
         	"valor": "valor"
         }
-        ```
 
 -   Exemplo de resposta:
 
-        ```json
         {
         	"httpVerb": "DELETE",
         	"success": true,
@@ -122,4 +107,3 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
         		"valor": "valor"
         	}
         }
-        ```

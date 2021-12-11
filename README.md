@@ -4,8 +4,8 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 ### Links importantes:
 
--   [Aplicação rodando no Heroku](https://prog-bolsas-api.herokuapp.com)
--   [Repositório do Github](https://github.com/leostacowski/prog-bolsas-api)
+-   [Aplicação rodando no Heroku](https://prog-bolsas-api.herokuapp.com);
+-   [Repositório do Github](https://github.com/leostacowski/prog-bolsas-api);
 
 ### Verbos Disponíveis:
 

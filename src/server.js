@@ -17,7 +17,7 @@ const serve = (port) => {
   )
 }
 
-export const run = ({ port = 80 } = {}) => {
+export const run = ({ port = process.env.PORT || 3000 } = {}) => {
   setup()
   serve(port)
 }

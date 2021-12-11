@@ -12,11 +12,11 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 
 ### Rotas:
 
--   `GET /`
+`GET /`
 
 > Retorna a documentação das rotas da prog-bolsas-api.
 
--   `POST /`
+`POST /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
@@ -37,7 +37,7 @@ Exemplo de resposta:
       }
     }
 
--   `PATCH /`
+`PATCH /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
@@ -58,7 +58,7 @@ Exemplo de resposta:
       }
     }
 
--   `PUT /`
+`PUT /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 
@@ -79,7 +79,7 @@ Exemplo de resposta:
       }
     }
 
--   `DELETE /`
+`DELETE /`
 
 > Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
 

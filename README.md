@@ -1,13 +1,14 @@
 # prog-bolsas-api
 
 Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
+Criada com o intuito de possibilitar a prática com verbos HTTP emitidos de aplicações de Front-end.
 
-### Links importantes:
+## Links importantes:
 
--   [Aplicação rodando no Heroku](https://prog-bolsas-api.herokuapp.com);
--   [Repositório do Github](https://github.com/leostacowski/prog-bolsas-api);
+-   [Aplicação no Heroku](https://prog-bolsas-api.herokuapp.com);
+-   [Repositório do Github](https://github.com/leostacowski/prog-bolsas-api).
 
-### Verbos Disponíveis:
+## Verbos Disponíveis:
 
 -   `GET`;
 -   `POST`;
@@ -15,23 +16,25 @@ Uma API de teste para os participantes do Programa de Bolsas na Compass.uol.
 -   `PUT`;
 -   `DELETE`.
 
-### Rotas:
+## Usando o verbo **GET**:
 
-`GET /`
+`GET https://prog-bolsas-api.herokuapp.com/`
 
 > Retorna a documentação das rotas da prog-bolsas-api.
 
-`POST /`
+## Usando o verbo **POST**
 
-> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+`POST https://prog-bolsas-api.herokuapp.com/`
 
-Exemplo de payload:
+> Deve receber um _payload_ com dados do tipo _application/json_, retornando um response indicando o sucesso da transação.
+
+#### Exemplo de payload no request:
 
     {
       "valor": "valor"
     }
 
-Exemplo de resposta:
+#### Exemplo de payload no response:
 
     {
       "httpVerb": "POST",
@@ -42,17 +45,19 @@ Exemplo de resposta:
       }
     }
 
-`PATCH /`
+## Usando o verbo **PATCH**
 
-> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+`PATCH https://prog-bolsas-api.herokuapp.com/`
 
-Exemplo de payload:
+> Deve receber um _payload_ com dados do tipo _application/json_, retornando um response indicando o sucesso da transação.
+
+#### Exemplo de payload no request:
 
     {
       "valor": "valor"
     }
 
-Exemplo de resposta:
+#### Exemplo de payload no response:
 
     {
       "httpVerb": "PATCH",
@@ -63,17 +68,19 @@ Exemplo de resposta:
       }
     }
 
-`PUT /`
+## Usando o verbo **PUT**
 
-> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+`PUT https://prog-bolsas-api.herokuapp.com/`
 
-Exemplo de payload:
+> Deve receber um _payload_ com dados do tipo _application/json_, retornando um response indicando o sucesso da transação.
+
+#### Exemplo de payload no request:
 
     {
       "valor": "valor"
     }
 
-Exemplo de resposta:
+#### Exemplo de payload no response:
 
     {
       "httpVerb": "PUT",
@@ -84,17 +91,19 @@ Exemplo de resposta:
       }
     }
 
-`DELETE /`
+## Usando o verbo **DELETE**
 
-> Recebe um _payload_ com dados do tipo _application/json_ e retorna um indicativo de sucesso da transação.
+`DELETE https://prog-bolsas-api.herokuapp.com/`
 
-Exemplo de payload:
+> Deve receber um _payload_ com dados do tipo _application/json_, retornando um response indicando o sucesso da transação.
+
+#### Exemplo de payload no request:
 
     {
       "valor": "valor"
     }
 
-Exemplo de resposta:
+#### Exemplo de payload no response:
 
     {
       "httpVerb": "DELETE",

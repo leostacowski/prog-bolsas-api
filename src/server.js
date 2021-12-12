@@ -11,13 +11,15 @@ const setup = () => {
   app.use(routes)
 }
 
-const serve = (port) => {
+const serve = () => {
+  const port = process.env.PORT || 80
+
   app.listen(port, () =>
     console.log(`Express server listening on port ${port}`),
   )
 }
 
-export const run = ({ port = process.env.PORT || 3000 } = {}) => {
+export const run = () => {
   setup()
-  serve(port)
+  serve()
 }
